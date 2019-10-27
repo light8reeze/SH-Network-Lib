@@ -237,4 +237,7 @@
       <Filter>Utility\Memory</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" />
+  </ItemGroup>
 </Project>
