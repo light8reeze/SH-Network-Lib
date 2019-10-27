@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Connection">
+      <UniqueIdentifier>{99525c57-982b-4160-b45b-ac5ea62ea285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{7dfdac08-658c-42f3-a8a8-84ec79368f49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network IO">
+      <UniqueIdentifier>{d0a401c5-6f94-4db0-bbb5-443f65c9ae81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Connection\Acceptor">
+      <UniqueIdentifier>{a7061acc-7bb3-453b-969d-f4023b790ba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Connection\Connector">
+      <UniqueIdentifier>{799d1359-7555-47cd-9863-b231f254d947}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{3cbd2efd-6084-4294-be2a-7866ad68173e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{393c1311-347d-460f-8f2b-e347d14f53de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Class Design">
+      <UniqueIdentifier>{728d9995-571e-44e3-b141-6c3cc0d82181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Reader">
+      <UniqueIdentifier>{d5587785-e509-438e-a059-532525c8bd4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Memory">
+      <UniqueIdentifier>{34480257-54c9-47e1-a91f-909d4b832a1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Random">
+      <UniqueIdentifier>{2f8922fc-79d0-4e3e-bf66-3f504a9b9721}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Dump">
+      <UniqueIdentifier>{d8e083cc-2c74-44b2-b304-8823f8d6595f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Lock">
+      <UniqueIdentifier>{a24ae20d-f8c0-4d02-96f1-9a4720cc5aa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network IO\Socket">
+      <UniqueIdentifier>{04b89678-bb15-4edc-a681-ceed9ef72e76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{17c134c1-4ffe-4f06-ad38-7632987a6735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buffer">
+      <UniqueIdentifier>{2767c606-415e-44f3-bf40-6f899d82814f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread\Server Thread">
+      <UniqueIdentifier>{6df7b859-7fb8-4d72-a866-7b7e8cca2ce4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Time">
+      <UniqueIdentifier>{205343b6-b85c-46ae-af0e-721537b0306d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Log">
+      <UniqueIdentifier>{0b6327ee-4beb-4932-a1ef-30aea81bd6bd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Cpp\Acceptor.cpp">
+      <Filter>Connection\Acceptor</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Cpp\IniReader.cpp">
+      <Filter>Utility\Reader</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Cpp\MemoryDump.cpp">
+      <Filter>Utility\Dump</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Cpp\NetworkObject.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Cpp\PacketQueue.cpp">
+      <Filter>Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Cpp\Random.cpp">
+      <Filter>Utility\Random</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Cpp\ReceiveBuffer.cpp">
+      <Filter>Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Cpp\Thread.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Cpp\ThreadPool.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Cpp\Connecter.cpp">
+      <Filter>Connection\Connector</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Cpp\Socket.cpp">
+      <Filter>Network IO\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Cpp\WorkThread.cpp">
+      <Filter>Thread\Server Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Cpp\NetworkIO.cpp">
+      <Filter>Network IO</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Cpp\MainThread.cpp">
+      <Filter>Thread\Server Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Cpp\MswSocket.cpp">
+      <Filter>Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Cpp\Watch.cpp">
+      <Filter>Utility\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Cpp\TimeScheduler.cpp">
+      <Filter>Utility\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Cpp\Logger.cpp">
+      <Filter>Utility\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Cpp\SessionManager.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Cpp\Locker.cpp">
+      <Filter>Utility\Lock</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Cpp\Arguments.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Cpp\Factory.cpp">
+      <Filter>Utility\Memory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Inc\AutoLock.h">
+      <Filter>Utility\Lock</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Inc\Acceptor.h">
+      <Filter>Connection\Acceptor</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Inc\Constraint.h">
+      <Filter>Utility\Class Design</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Inc\IniReader.h">
+      <Filter>Utility\Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Inc\Locker.h">
+      <Filter>Utility\Lock</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Inc\MemoryDump.h">
+      <Filter>Utility\Dump</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Inc\NetworkObject.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Inc\PacketHeader.h">
+      <Filter>Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Inc\PacketQueue.h">
+      <Filter>Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Inc\Random.h">
+      <Filter>Utility\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Inc\ReceiveBuffer.h">
+      <Filter>Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Inc\SendBuffer.h">
+      <Filter>Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Inc\SessionManager.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Inc\Singleton.h">
+      <Filter>Utility\Class Design</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Inc\UserSession.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Inc\SHLib.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Inc\Thread.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Inc\ThreadPool.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Inc\Connecter.h">
+      <Filter>Connection\Connector</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Inc\Socket.h">
+      <Filter>Network IO\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Inl\Acceptor.Inl">
+      <Filter>Connection\Acceptor</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Inl\SessionManager.Inl">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Inc\WorkThread.h">
+      <Filter>Thread\Server Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Inc\NetworkIO.h">
+      <Filter>Network IO</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Inc\MainThread.h">
+      <Filter>Thread\Server Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Inc\SHMain.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Inc\ObjectPool.h">
+      <Filter>Utility\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Inc\Factory.h">
+      <Filter>Utility\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Inl\ObjectPool.inl">
+      <Filter>Utility\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Inc\MswSocket.h">
+      <Filter>Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Inc\Watch.h">
+      <Filter>Utility\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Inc\TimeScheduler.h">
+      <Filter>Utility\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Inl\TimeScheduler.inl">
+      <Filter>Utility\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Inc\Logger.h">
+      <Filter>Utility\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Inc\Arguments.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Inl\Factory.inl">
+      <Filter>Utility\Memory</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
